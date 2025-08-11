@@ -1,0 +1,14 @@
+Source: mark-on-doubleclick
+Section: mail
+Priority: optional
+Maintainer: Craig <craigh@funktion.net>
+Build-Depends: debhelper-compat (= 13), pkg-config, cmake, gcc, libgtk-3-dev, libglib2.0-dev, evolution-dev, camel-1.2
+Standards-Version: 4.6.2
+Homepage: https://example.invalid/mark-on-doubleclick
+
+Package: mark-on-doubleclick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Mark messages read on double-click in Evolution (EPlugin)
+ A minimal Evolution plugin that leaves previewed messages Unread and marks
+ them Read when opened in their own window (double-click). Owner-only UI.

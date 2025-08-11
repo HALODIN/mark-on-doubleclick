@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e-plugin-list>
+  <e-plugin
+    type="shlib"
+    id="org.gnome.mark-on-doubleclick"
+    name="Mark on Double-Click"
+    _name="Mark on Double-Click"
+    location="@PLUGINDIR@/liborg-gnome-mark-on-doubleclick@SOEXT@">
+
+    <description>Keep previewed messages Unread; mark them Read when opened in their own window (double-click).</description>
+    <_description>Keep previewed messages Unread; mark them Read when opened in their own window (double-click).</_description>
+
+    <author name="Craig" email="craigh@funktion.net"/>
+
+    <!-- UI hook just to run e_plugin_ui_init; no menu items or config pages -->
+    <hook class="org.gnome.evolution.ui:1.0">
+      <ui-manager id="org.gnome.evolution.mail"/>
+      <ui-manager id="org.gnome.evolution.mail.browser"/>
+    </hook>
+  </e-plugin>
+</e-plugin-list>
