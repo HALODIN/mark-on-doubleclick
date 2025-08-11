@@ -1,4 +1,9 @@
 # Mark on Double-Click (Evolution EPlugin)
+![Platform: Linux](https://img.shields.io/badge/platform-linux-lightgrey)
+![Client: Evolution](https://img.shields.io/badge/client-evolution-blue)
+
+
+**A plugin for GNOME Evolution (Linux).**
 
 **Version:** 4.5  
 **Author:** craigh@funktion.net  
